@@ -29,7 +29,8 @@ function App() {
 
 
   return (
-    <div className='font-poppins'>
+    <div className='font-poppins hidden lg:block'>
+      <div className='lg:hidden'>Mobile View is Maintenance</div>
       <Header/>
       <div className='static'>
       <Router/>
