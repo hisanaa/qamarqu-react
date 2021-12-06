@@ -88,7 +88,9 @@ function Checkout() {
           loading();
           setNotif(true);
         })
-        .catch((err) => {});
+        .catch((err) => {
+        console.log(err)
+      });
     }
   };
 
