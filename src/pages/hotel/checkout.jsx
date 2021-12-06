@@ -81,21 +81,21 @@ function Checkout() {
         payment_method: isActive,
       };
 
-//       axios
-//         .post(`${BaseUrl}/api/booking`, data)
-//         .then((res) => {
-//           console.log(res);
-//           loading();
-//           setNotif(true);
-//         })
-//         .catch((err) => {
-//         console.log(err)
-//       });
-         const requestOptions = {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ title: 'Fetch POST Request Example' })
-};
+      axios
+        .post(`${BaseUrl}/api/booking`, data)
+        .then((res) => {
+          console.log(res);
+          loading();
+          setNotif(true);
+        })
+        .catch((err) => {
+        console.log(err)
+      });
+//          const requestOptions = {
+//     method: 'POST',
+//     headers: { 'Content-Type': 'application/json' },
+//     body: JSON.stringify({ title: 'Fetch POST Request Example' })
+// };
 fetch(`${BaseUrl}/api/booking`, data)
     .then(response => response.json())
     .then(data => console.log(data) );
