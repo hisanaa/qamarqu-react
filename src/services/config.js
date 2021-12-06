@@ -1,1 +1,1 @@
-export const BaseUrl = 'https://qamarqu.000webhostapp.com'
+export const BaseUrl = 'https://emilycosmetic.com/'
