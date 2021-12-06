@@ -96,9 +96,9 @@ function Checkout() {
 //     headers: { 'Content-Type': 'application/json' },
 //     body: JSON.stringify({ title: 'Fetch POST Request Example' })
 // };
-fetch(`${BaseUrl}/api/booking`, data)
-    .then(response => response.json())
-    .then(data => console.log(data) );
+// fetch(`${BaseUrl}/api/booking`, data)
+//     .then(response => response.json())
+//     .then(data => console.log(data) );
      
     }
   };
